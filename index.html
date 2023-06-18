@@ -159,7 +159,7 @@
             let value = window.scrollY;
 
             text.style.top = 50 + value * -.1 + '%';
-            if (window.innerWidth < 1024) {
+            if (window.innerWidth < 1024 || screen.width < 1024) {
 
             } else {
                 bird2.style.top = value * -1.5 + 'px';
